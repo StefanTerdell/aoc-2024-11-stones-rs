@@ -1,0 +1,11 @@
+[package]
+name = "stones"
+version = "0.1.0"
+edition = "2021"
+
+[[bench]]
+name = "blinks"
+harness = false
+
+[dev-dependencies]
+criterion = "0.5.1"
